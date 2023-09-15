@@ -1,0 +1,29 @@
+
+=
+java:S1481<"'Remove this unused "bd" local variable.(Ãğ·²
+6
+java:S2438W""Argument 1" is a "Thread".(§ê‚ÿÿÿÿÿ
+n
+java:S1104"SMake fileURL a static final constant or non-public and provide accessors if needed.(±ôÄàşÿÿÿÿ
+C	java:S108]")Either remove or fill this block of code.(è®ã¶øÿÿÿÿ
+S
+java:S1128"1Remove this unused import 'okhttp3.OkHttpClient'.(ì€’Àùÿÿÿÿ8ôì¹¼ï.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ÕÍáùÿÿÿÿ
+a
+java:S2142]"FEither re-interrupt this method or rethrow the "InterruptedException".(è®ã¶øÿÿÿÿ
+M
+java:S2696˜"6Make the enclosing method "static" or remove this set.(™ÉĞ
+s	java:S135z"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+P
+java:S1161u":Add the "@Override" annotation above this method signature(“–ış
+<
+java:S2111."!Use "BigDecimal.valueOf" instead.(½ƒıÿÿÿÿ
+Q
+java:S2696R"6Make the enclosing method "static" or remove this set.(ĞÚÀçşÿÿÿÿ
+P
+java:S1141["5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+d
+java:S1126Š"AReplace this if-then-else statement by a single return statement.(ä…´åşÿÿÿÿ8ôì¹¼ï.
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îºîŠ8ôì¹¼ï.
+L
+java:S1854<"6Remove this useless assignment to local variable "bd".(Ãğ·²

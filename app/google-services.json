@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "193817036903",
+    "project_id": "speed-test-243ff",
+    "storage_bucket": "speed-test-243ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193817036903:android:aa4da51df41329e1912cc2",
+        "android_client_info": {
+          "package_name": "com.banrossyn.netspeed.internetspeedmeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193817036903-kkdah8k96q70tn6tqkos7i3d2ckmm5bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtyCRftmC6hnWoI2e35M7FyEIzB1ZzEWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193817036903-kkdah8k96q70tn6tqkos7i3d2ckmm5bf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+
+…
+java:S1319"oThe type of the "time" object should be an interface such as "List" rather than the implementation "ArrayList".(²Ûí”
+…
+java:S1319"oThe type of the "type" object should be an interface such as "List" rather than the implementation "ArrayList".(²Ûí”
+…
+java:S1319"oThe type of the "ping" object should be an interface such as "List" rather than the implementation "ArrayList".(²Ûí”
+‰
+java:S1319"sThe type of the "download" object should be an interface such as "List" rather than the implementation "ArrayList".(ËÇÀ
+‡
+java:S1319"qThe type of the "upload" object should be an interface such as "List" rather than the implementation "ArrayList".(ËÇÀ
+J
+java:S3740"/Provide the parametrized type for this generic.(ÃüÏÊşÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ÃüÏÊşÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ÃüÏÊşÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ÃüÏÊşÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ÃüÏÊşÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(²Ûí”
+E
+java:S3740"/Provide the parametrized type for this generic.(²Ûí”
+E
+java:S3740"/Provide the parametrized type for this generic.(²Ûí”
+E
+java:S3740"/Provide the parametrized type for this generic.(ËÇÀ
+E
+java:S3740"/Provide the parametrized type for this generic.(ËÇÀ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ó—Ğ™øÿÿÿÿ
+=
+java:S1659""Declare "type" on a separate line.(ÃüÏÊşÿÿÿÿ
+=
+java:S1659""Declare "ping" on a separate line.(ÃüÏÊşÿÿÿÿ
+A
+java:S1659"&Declare "download" on a separate line.(ÃüÏÊşÿÿÿÿ
+?
+java:S1659"$Declare "upload" on a separate line.(ÃüÏÊşÿÿÿÿ
+A
+java:S1659?"&Declare "type_txt" on a separate line.(¹˜©æıÿÿÿÿ
+A
+java:S1659?"&Declare "ping_txt" on a separate line.(¹˜©æıÿÿÿÿ
+E
+java:S1659?"*Declare "download_txt" on a separate line.(¹˜©æıÿÿÿÿ
+C
+java:S1659?"(Declare "upload_txt" on a separate line.(¹˜©æıÿÿÿÿ
+m	java:S116?"SRename this field "time_txt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹˜©æıÿÿÿÿ
+m	java:S116?"SRename this field "type_txt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹˜©æıÿÿÿÿ
+m	java:S116?"SRename this field "ping_txt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹˜©æıÿÿÿÿ
+q	java:S116?"WRename this field "download_txt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹˜©æıÿÿÿÿ
+o	java:S116?"URename this field "upload_txt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹˜©æıÿÿÿÿ
+G
+java:S1068",Remove this unused "activity" private field.(‰€Ôßûÿÿÿÿ

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0.0dip"
+    android:layout_marginBottom="0.0dip">
+
+    <LinearLayout
+        android:id="@+id/linearCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/newbg"
+        android:orientation="horizontal"
+        android:weightSum="13.0">
+
+        <TextView
+            android:id="@+id/id_date"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.0dip"
+            android:layout_weight="4.0"
+            android:paddingLeft="10.0dip"
+            android:paddingTop="3.0dip"
+            android:paddingBottom="3.0dip"
+            android:text="date"
+            android:textColor="@color/cone" />
+
+        <TextView
+            android:id="@+id/id_wifi"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.0dip"
+            android:layout_weight="3.0"
+            android:gravity="right"
+            android:paddingTop="3.0dip"
+            android:paddingRight="2.0dip"
+            android:paddingBottom="3.0dip"
+            android:text="wifi"
+            android:textColor="@color/cone" />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.0dip"
+            android:layout_weight="3.0"
+            android:gravity="right"
+            android:paddingTop="3.0dip"
+            android:paddingRight="2.0dip"
+            android:paddingBottom="3.0dip"
+            android:text="mobile"
+            android:textColor="@color/cone" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.0dip"
+            android:layout_weight="3.0"
+            android:gravity="right"
+            android:paddingTop="3.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingBottom="3.0dip"
+            android:text="total"
+            android:textColor="@color/cone" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

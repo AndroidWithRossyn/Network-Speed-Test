@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackground">
+    <PreferenceCategory
+        android:title="@string/option_title_startup">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="startupSetting"
+            android:summary="@string/option_auto_start_sub"
+            android:title="@string/option_auto_start" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/option_title_notification">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notificationSetting"
+            android:summary="@string/option_show_notification_sub"
+            android:title="@string/option_show_notification" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:shouldDisableView="true"
+            android:key="autoHideSetting"
+            android:summary="@string/option_auto_hide_sub"
+            android:title="@string/option_auto_hide" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="hideOnLockSetting"
+            android:summary="@string/option_lockscreen_sub"
+            android:title="@string/option_lockscreen_notification" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="hideExtera"
+            android:shouldDisableView="true"
+            android:summary="@string/option_speed_detaile_sub"
+            android:title="@string/option_speed_detail" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="showDataUsage"
+            android:shouldDisableView="false"
+            android:summary="@string/option_show_dataUsage_detaile"
+            android:title="@string/option_show_dataUsage" />
+
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Network Speed Test</string>
+    <string name="version">1.2.8.18</string>
+    <string name="author">BanRossyn</string>
+
+    <string name="App_ID" translatable="false">ca-app-pub-4577382853353362~7714395688</string>
+    <string name="BannerAd" translatable="false">ca-app-pub-4577382444353362/3288722404</string>
+    <string name="InterstitialAd" translatable="false">ca-app-pub-4577382852223362/2302943798</string>
+
+    <string name="moregamesurl" translatable="false">https://play.google.com/store/apps/dev?id=5306067645342206751</string>
+
+
+    <string name="title">Privacy Policy</string>
+    <string name="ok">OK</string>
+
+    <string name="time">Time</string>
+    <string name="type">Type</string>
+    <string name="ping">Ping</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="internet_speed_meter">I Speed Meter</string>
+
+    <string name="btnText">START</string>
+    <string name="speedText">0 kbps</string>
+    <string name="textViewNetworkType">NO NETWORK</string>
+    <string name="speed_test_results">SPEED TEST RESULTS</string>
+    <string name="speed_test_by_devil_speed_test">Developed BY BanRossyn</string>
+    <string name="_2020_07_13">2022/08/15</string>
+    <string name="currenttime">11:17 PM</string>
+    <string name="servercountry">SERVER : India Telecom</string>
+    <string name="country">LOCATION : India</string>
+
+
+
+    <string name="action_about">About</string>
+    <string name="action_stop">Exit</string>
+    <string name="speed">Speed</string>
+    <string name="close">Close</string>
+    <string name="b">B/s</string>
+    <string name="kb">KB/s</string>
+    <string name="mb">MB/s</string>
+    <string name="axisY">Speed KB/s</string>
+    <string name="title_activity_parent">parentActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_head">Internet Speed Meter</string>
+    <string name="about_description">Internet Speed Meter (ISM) displays your internet speed in status bar. This helps you to monitor network connection anytime while using your device.</string>
+    <string name="about_support">Support us</string>
+    <string name="option_auto_start">Auto Start</string>
+    <string name="option_auto_start_sub">AutoStart Service on Phone Start</string>
+    <string name="option_show_notification">Show Notification</string>
+    <string name="option_show_notification_sub">Show Network Speed Indicator in Status Bar</string>
+    <string name="option_auto_hide">Auto Hide</string>
+    <string name="option_auto_hide_sub">Auto Hide Notification When Network is Unavailable</string>
+    <string name="option_lockscreen_notification">LockScreen Notification</string>
+    <string name="option_lockscreen_sub">Hide Notification on lockScreen</string>
+    <string name="option_speed_detail">Internet Speed Detail</string>
+    <string name="option_speed_detaile_sub">Show Upload and Download Speed or Daily Data Usage in Notification</string>
+    <string name="option_title_startup">Startup Setting</string>
+    <string name="option_title_notification">Notification Setting</string>
+    <string name="option_show_wifi">Show Wifi SSID</string>
+    <string name="option_show_wifi_detaile">Show Wifi SSID in Notification</string>
+    <string name="option_show_dataUsage">Show Data Usage</string>
+    <string name="option_show_dataUsage_detaile">Show Daily Data Usage in Notification</string>
+    <string name="option_show_ads">Show Ads</string>
+    <string name="option_show_ads_detaile">Show Ads on Homepage </string>
+
+    <string name="bytee">byte</string>
+    <string name="kilobyte">KB</string>
+    <string name="megabyte">MB</string>
+    <string name="gigabyte">GB</string>
+    <string name="mobile">Data</string>
+    <string name="wifi">WIFI</string>
+</resources>

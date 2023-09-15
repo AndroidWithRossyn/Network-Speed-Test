@@ -1,0 +1,15 @@
+
+F
+java:S1659"$Declare "upload" on a separate line.(š½êÃşÿÿÿÿ8òÂ‚›ö.
+D
+java:S1659""Declare "type" on a separate line.(š½êÃşÿÿÿÿ8òÂ‚›ö.
+D
+java:S1659""Declare "ping" on a separate line.(š½êÃşÿÿÿÿ8òÂ‚›ö.
+m
+java:S1301T"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8òÂ‚›ö.
+C	java:S131T""Add a default case to this switch.(øå´¡ÿÿÿÿÿ8òÂ‚›ö.
+H
+java:S1659"&Declare "download" on a separate line.(š½êÃşÿÿÿÿ8òÂ‚›ö.
+J
+java:S1199U"-Extract this nested code block into a method.(É¹Ù‹8òÂ‚›ö.
+J	java:S108A")Either remove or fill this block of code.(ö½œéùÿÿÿÿ8òÂ‚›ö.

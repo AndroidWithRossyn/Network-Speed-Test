@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="newbg">#000000</color>
+    <color name="cone">#22C2CD</color>
+    <color name="subtext">#8599A7</color>
+    <color name="maintextcolor">#ffffff</color>
+    <color name="ratedialog">#036E75</color>
+    <color name="ratedialogbackgraun">#FFFFFF</color>
+    <color name="headerTextColour">#22C2CD</color>
+
+    <color name="colorPrimary">#89ABA7</color>
+    <color name="colorPrimaryDark">#6A8783</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="accent_blue">#ffff4040</color>
+    <color name="up">#ADEED8</color>
+    <color name="down">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="textColor">#858585</color>
+    <color name="mainBackground">#000</color>
+    <color name="btnBackground">#191919</color>
+
+
+
+    <color name="colorBackground">#f7f7f7</color>
+    <color name="colorCardView">#fefefe</color>
+</resources>
