@@ -1,2 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+
+        mavenCentral { url 'https://jitpack.io' }
+
+        maven {
+            url "https://maven.google.com"
+        }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
 rootProject.name='SpeedTest'
 include ':app'

@@ -6,9 +6,17 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
@@ -16,7 +24,7 @@
 
 
     <application
-        android:name=".utils.MyApp"
+        android:name="com.yeshbinc.speedtest.netspeed.speedmeter.utils.MyApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,19 +34,20 @@
         android:supportsRtl="true"
         android:theme="@style/sflash"
         android:usesCleartextTraffic="true"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="m">
 
         <activity
-            android:name=".NetCheakHistory"
+            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.NetCheakHistory"
             android:label="History"
             android:theme="@style/sflashgreenex">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".NetCheakHistory" />
+                android:value="com.yeshbinc.speedtest.netspeed.speedmeter.NetCheakHistory" />
         </activity>
-        <activity android:name=".HomeActivity" />
+        <activity android:name="com.yeshbinc.speedtest.netspeed.speedmeter.HomeActivity" />
         <activity
-            android:name=".SplashSceen"
+            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.SplashSceen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,16 +67,15 @@
         </provider>
 
         <activity
-            android:name=".DataHistoryActivity"
+            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.DataHistoryActivity"
             android:configChanges="orientation|screenSize"
-            android:label="Data History"
-            android:theme="@style/sflashgreenex">
+            android:label="Data History">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DataHistoryActivity" />
+                android:value="com.yeshbinc.speedtest.netspeed.speedmeter.DataHistoryActivity" />
         </activity>
         <receiver
-            android:name=".broadcastreceivers.DataReceiver"
+            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.broadcastreceivers.DataReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -77,51 +85,41 @@
         </receiver>
 
         <service
-            android:name=".services.DataService"
+            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.services.DataService"
             android:enabled="true"
             android:exported="true" />
-        <service android:name=".services.MyService" />
+        <service android:name="com.yeshbinc.speedtest.netspeed.speedmeter.services.MyService" />
 
         <activity
-            android:name=".NotificationActivity"
+            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.NotificationActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="Notification Setting"
-            android:screenOrientation="portrait"
-            android:theme="@style/sflashgreenex">
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".NetCheakHistory" />
+                android:value="com.yeshbinc.speedtest.netspeed.speedmeter.NetCheakHistory" />
         </activity>
 
         <service
-            android:name=".services.SpeedMeter"
+            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.services.SpeedMeter"
             android:exported="false" />
         <receiver
-            android:name=".Notifaction.ServiceStarter"
+            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.Notifaction.ServiceStarter"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/App_ID" />
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
 
-        <service
-            android:name=".Firebase.MyFirebaseMessagingService"
-            android:enabled="true"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
 
-        <meta-data
-            android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@mipmap/ic_launcher_round" />
-        <meta-data
-            android:name="com.google.firebase.messaging.default_notification_color"
-            android:resource="@color/transparent" />
     </application>
 
 </manifest>

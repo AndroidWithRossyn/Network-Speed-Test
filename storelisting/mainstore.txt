@@ -1,0 +1,45 @@
+com.yeshbinc.speedtest.netspeed.speedmeter
+
+Title:
+
+Speed Test: Network Speed
+
+Short dis:
+Speed Test app provides quick and accurate internet speed measurements.
+
+
+long dis:
+A cleaner and simpler way to monitor network connection speed on your Android devices
+Speed Test shows your current internet speed in the status bar. The notification area shows a clean and unobtrusive notification displaying live upload/download speed and/or daily data/WiFi usage.
+
+
+It will help you test internet speed of wide range of mobile networks (3G, 4G, 5G, Wi-Fi, GPRS, WAP, LTE), check connection status over the time and monitor data usage.
+Perform an expert internet speed test with one tap and get all the information about your connection you need with our app.
+
+Network Speed Test displays your internet speed in status bar and shows the amount of data used in notification pane.
+This helps you to monitor network connection anytime while using your device.
+
+Features
+A notification dialog appears when you tap the notification having
+
+- Daily Data Uses History
+- All test network History
+- Graph to monitor last minute internet activity
+- Time and usage of current session
+- Today's app Uses for mobile and wifi
+- Notification appears always.
+- You can manually select the Notification interface.
+- Upload and Download Speed
+- Option to show upload and download speed in separate notifications.
+
+
+
+Daily data usage
+Track your daily 5G/4G/3G/2G data or WiFi usage right from notification bar. When enabled the notification shows daily mobile data and WiFi usage.
+No need of a separate app just to keep track of your daily data usage.
+
+
+Explore mobile network coverage with Speed test on real-world data gathered by the Speed test app. See performance by provider to find out where you’re likely to experience strong connectivity.
+
+
+Note: - Speed Test is neither affiliated to any other app non claims to own a trademark to use the name and logo of any third-party app.
