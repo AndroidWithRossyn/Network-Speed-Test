@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.banrossyn.netspeed.internetspeedmeter">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -24,7 +23,7 @@
 
 
     <application
-        android:name="com.yeshbinc.speedtest.netspeed.speedmeter.utils.MyApplication"
+        android:name=".utils.MyApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -34,20 +33,19 @@
         android:supportsRtl="true"
         android:theme="@style/sflash"
         android:usesCleartextTraffic="true"
-        tools:ignore="GoogleAppIndexingWarning"
-        tools:targetApi="m">
+        tools:ignore="GoogleAppIndexingWarning">
 
         <activity
-            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.NetCheakHistory"
+            android:name=".NetCheakHistory"
             android:label="History"
             android:theme="@style/sflashgreenex">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.yeshbinc.speedtest.netspeed.speedmeter.NetCheakHistory" />
+                android:value=".NetCheakHistory" />
         </activity>
-        <activity android:name="com.yeshbinc.speedtest.netspeed.speedmeter.HomeActivity" />
+        <activity android:name=".HomeActivity" />
         <activity
-            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.SplashSceen"
+            android:name=".SplashSceen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,15 +65,15 @@
         </provider>
 
         <activity
-            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.DataHistoryActivity"
+            android:name=".DataHistoryActivity"
             android:configChanges="orientation|screenSize"
             android:label="Data History">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.yeshbinc.speedtest.netspeed.speedmeter.DataHistoryActivity" />
+                android:value=".DataHistoryActivity" />
         </activity>
         <receiver
-            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.broadcastreceivers.DataReceiver"
+            android:name=".broadcastreceivers.DataReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -85,26 +83,26 @@
         </receiver>
 
         <service
-            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.services.DataService"
+            android:name=".services.DataService"
             android:enabled="true"
             android:exported="true" />
-        <service android:name="com.yeshbinc.speedtest.netspeed.speedmeter.services.MyService" />
+        <service android:name=".services.MyService" />
 
         <activity
-            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.NotificationActivity"
+            android:name=".NotificationActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="Notification Setting"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.yeshbinc.speedtest.netspeed.speedmeter.NetCheakHistory" />
+                android:value=".NetCheakHistory" />
         </activity>
 
         <service
-            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.services.SpeedMeter"
+            android:name=".services.SpeedMeter"
             android:exported="false" />
         <receiver
-            android:name="com.yeshbinc.speedtest.netspeed.speedmeter.Notifaction.ServiceStarter"
+            android:name=".Notifaction.ServiceStarter"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
