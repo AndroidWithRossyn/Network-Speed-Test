@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "193817036903",
-    "project_id": "speed-test-243ff",
-    "storage_bucket": "speed-test-243ff.appspot.com"
+    "project_number": "173749509320",
+    "project_id": "speed-test-networkspeed",
+    "storage_bucket": "speed-test-networkspeed.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:193817036903:android:aa4da51df41329e1912cc2",
+        "mobilesdk_app_id": "1:173749509320:android:d2b4f8d464390e62c9d9fd",
         "android_client_info": {
-          "package_name": "com.banrossyn.netspeed.internetspeedmeter"
+          "package_name": "com.yeshbinc.speedtest.netspeed.speedmeter"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "193817036903-kkdah8k96q70tn6tqkos7i3d2ckmm5bf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAtyCRftmC6hnWoI2e35M7FyEIzB1ZzEWQ"
+          "current_key": "AIzaSyC1GawUGCvLZJAihIy5gEMqHEGZJtUVVxI"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "193817036903-kkdah8k96q70tn6tqkos7i3d2ckmm5bf.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

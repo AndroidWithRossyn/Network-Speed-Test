@@ -10,7 +10,7 @@
     </style>
 
     <style name="sflash" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:fontFamily">@font/Sans</item>
+        <item name="android:fontFamily">@font/sans</item>
         <item name="android:statusBarColor">@color/newbg</item>
         <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
         <item name="android:navigationBarColor" tools:ignore="NewApi">@color/newbg</item>

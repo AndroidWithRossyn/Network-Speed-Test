@@ -210,10 +210,10 @@ public class HomeActivity extends AppCompatActivity implements RippleSwitch.OnCh
                 listMenus.clear();
                 listMenus.add(new MenuItemEntity(R.drawable.like, "Rate Me!"));
                 listMenus.add(new MenuItemEntity(R.drawable.ic_police_man, "Privacy Policy"));
-                listMenus.add(new MenuItemEntity(R.drawable.ic_baseline_history, "NetCheakHistory"));
+                listMenus.add(new MenuItemEntity(R.drawable.ic_baseline_history, "NetCheckHistory"));
                 listMenus.add(new MenuItemEntity(R.drawable.ic_outline_notifications24, "Notification Setting"));
                 listMenus.add(new MenuItemEntity(R.drawable.feedbacks, "Feedback"));
-                listMenus.add(new MenuItemEntity(R.drawable.more, "More Apps"));
+
                 uiPopupMenu
                         .setAlpha(0.5f)
                         .setMargin(0, 0, 0, 0)
@@ -232,11 +232,7 @@ public class HomeActivity extends AppCompatActivity implements RippleSwitch.OnCh
                                     Intent next = new Intent(HomeActivity.this, NotificationActivity.class);
                                     HomeActivity.this.startActivity(next);
                                 } else if (position == 4) {
-//                                      feedback
                                     feedbacks();
-                                } else if (position == 5) {
-//                                        moreapps
-                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.moregamesurl))));
                                 }
                             }
                         })
