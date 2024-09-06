@@ -1,0 +1,38 @@
+Q1 did you ask friends..
+
+I chose my developer friends for testers.
+
+
+Q Describe the engagement you recevied from testers during your closed tes
+Testers engaged positively, highlighting accuracy, performance, and UI strengths while suggesting improvements, which helped refine the app for better user experience.
+
+Q how to collect feedback
+
+I collected feedback from the testers through Reviews & I communicated with the testers, and they sent me feedback through WhatsApp and email.
+
+
+
+Q Intended Audience 
+
+The intended audience includes general users, tech enthusiasts, gamers, and professionals who need to test and monitor their internet speed and connectivity.
+
+
+Q describe how your app provides values to users
+The "Speed Test: Network Speed" app provides value by offering accurate, real-time internet speed tests, helping users diagnose network issues, optimize their connectivity, and make informed decisions about their internet services.
+
+
+
+
+
+
+Q what changes did you learn durig
+
+During closed testing, I learned the need to enhance app accuracy, improve UI responsiveness, optimize performance under varying network conditions, and ensure smooth handling of network disconnections.
+
+
+Q how to decide that app is ready
+ it’s bug-free, stable, accurate, secure, performs well across devices, has positive feedback, and offers a great user experience.
+
+
+In our latest closed test of the Speektest app, we enhanced the user interface, optimized performance, fixed bugs.
+These changes were made to provide a smoother and secure experience based on user feedback.

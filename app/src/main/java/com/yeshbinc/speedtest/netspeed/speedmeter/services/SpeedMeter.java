@@ -1,5 +1,6 @@
 package com.yeshbinc.speedtest.netspeed.speedmeter.services;
 
+import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -7,6 +8,7 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ServiceInfo;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.TrafficStats;
@@ -17,11 +19,13 @@ import android.os.Build;
 import android.os.IBinder;
 import android.preference.PreferenceManager;
 
+import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
+import com.yeshbinc.speedtest.netspeed.speedmeter.BuildConfig;
 import com.yeshbinc.speedtest.netspeed.speedmeter.Notifaction.Data;
 import com.yeshbinc.speedtest.netspeed.speedmeter.Notifaction.SensorRestarterBroadcastReceiver;
 import com.yeshbinc.speedtest.netspeed.speedmeter.NotificationActivity;
@@ -53,7 +57,7 @@ public class SpeedMeter extends Service {
         } else {
             stopSelf();
         }
-        Log.i("Internet Speed Meter","Service Force Restart");
+        Log.i("Internet Speed Meter", "Service Force Restart");
         //todo it should be back
         Intent broadcastIntent = new Intent(getApplicationContext(), SensorRestarterBroadcastReceiver.class);
         sendBroadcast(broadcastIntent);
@@ -127,7 +131,7 @@ public class SpeedMeter extends Service {
                 } else {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                         mNotificationManager.deleteNotificationChannel(channelId);
-                    }else {
+                    } else {
                         disappearNotification();
                     }
 
@@ -141,13 +145,9 @@ public class SpeedMeter extends Service {
     }
 
 
-
-
     private void disappearNotification() {
         stopForeground(false);
         mNotificationManager.cancel(3128);
-
-
 
 
     }
@@ -185,6 +185,8 @@ public class SpeedMeter extends Service {
     private String channelId = "channel-01";
     private String channelName = "Internet Speed Meter";
 
+
+    @SuppressLint("ForegroundServiceType")
     private void showNotification(String head, String sub) {
         try {
 
@@ -232,11 +234,11 @@ public class SpeedMeter extends Service {
                     } else {
                         mBuilder.setContentText("");
                     }
-                    if(lockScreen()){
+                    if (lockScreen()) {
 
                         mBuilder.setVisibility(NotificationCompat.VISIBILITY_SECRET);
 
-                    }else {
+                    } else {
                         mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
                     }
                     Intent myIntent = new Intent(getBaseContext(), NotificationActivity.class);
@@ -267,12 +269,14 @@ public class SpeedMeter extends Service {
                     mBuilder.setContentText("");
                 }
 
+
                 startForeground(3128, mBuilder.build());
-            //    mNotificationManager.notify(3128 /* Request Code */, mBuilder.build());
+
+//                mNotificationManager.notify(3128 /* Request Code */, mBuilder.build());
 
             }
         } catch (Exception e) {
-            firstTime =true;
+            firstTime = true;
         }
     }
 
@@ -675,12 +679,10 @@ public class SpeedMeter extends Service {
     }
 
 
-
     protected boolean showDailyDataUsage() {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         return prefs.getBoolean("showDataUsage", false);
     }
-
 
 
     protected String getWifiName() {

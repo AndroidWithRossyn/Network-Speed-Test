@@ -48,7 +48,7 @@ import com.yeshbinc.speedtest.netspeed.speedmeter.utils.NetworkUtilHome;
 import com.yeshbinc.speedtest.netspeed.speedmeter.utils.RetrieveDataHome;
 import com.gun0912.tedpermission.PermissionListener;
 import com.jtv7.rippleswitchlib.RippleSwitch;
-import com.sdsmdg.tastytoast.TastyToast;
+
 
 import org.achartengine.model.XYMultipleSeriesDataset;
 import org.achartengine.model.XYSeries;
@@ -974,7 +974,7 @@ public class HomeActivity extends AppCompatActivity implements RippleSwitch.OnCh
         }
 
         this.doubleBackToExitPressedOnce = true;
-        TastyToast.makeText(getApplicationContext(), "Please click BACK again to exit", TastyToast.LENGTH_LONG, TastyToast.WARNING);
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
 
         new Handler().postDelayed(new Runnable() {
 
